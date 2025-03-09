@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+img:hover{
+    opacity: 0.5;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+ .lastpara{
+    margin-top: 50px;
+ }
+#message{
+  background-color: rgb(39, 34, 34);
+  font-size: 16px;
+  display: inline;
+ margin-left: 540px;
+padding: 10px 20px;
+color: white;
+text-align: center;
+ border-radius: 9px;
+
+}
+
+@media screen and (orientation: portrait){
+    #message{
+        margin-left: 80px;
+    }
+}
